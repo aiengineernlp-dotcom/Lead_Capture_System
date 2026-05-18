@@ -1,0 +1,1 @@
+CREATE INDEX CONCURRENTLY idx_leads_email
