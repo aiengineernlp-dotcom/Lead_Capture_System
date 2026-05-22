@@ -4,6 +4,9 @@ import os
 import logging
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
+from dotenv import load_dotenv
+load_dotenv()  # Cela charge les variables du fichier .env
+
 
 logger = logging.getLogger(__name__)
 
